@@ -1,0 +1,37 @@
+extends layout
+
+block content
+  .col-md-12.col-xs-12
+    .panel.panel-default.panel-iquidus
+      .panel-heading 
+        h3 
+          span.glyphicon.fa.fa-qrcode(style='margin-right:5px;')
+          | QR Generator
+          a(href='https://github.com/iquidus/qr-gen')
+            span.pull-right.glyphicon.fa.fa-github(style='margin-right:5px;')
+          span.pull-right
+            | v1.0.0
+      .panel-body
+        :markdown
+
+          A basic QR code generator for strings such as Job ID's or hashes.
+
+          ------------
+          #### Usage
+
+          [http://#{address}/stringToQR](http://#{address}/stringToQR)
+
+          -------------
+          #### Examples
+
+          [http://#{address}/168hdKA3fkccPtkxnX8hBrsxNubvk4udJi](http://#{address}/168hdKA3fkccPtkxnX8hBrsxNubvk4udJi)
+
+          [http://#{address}/J14-01234](http://#{address}/J14-01234)
+
+          #### Links
+
+              img(src='http://#{address}/168hdKA3fkccPtkxnX8hBrsxNubvk4udJi')
+
+  
+        img(src='http://#{address}/168hdKA3fkccPtkxnX8hBrsxNubvk4udJi')
+

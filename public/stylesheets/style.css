@@ -1,0 +1,24 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.panel-iquidus {
+	border-color:#CCC;
+	color:#333;
+}
+
+.panel-iquidus .panel-heading, .panel-iquidus .panel-footer {
+	background:#222;
+	border-color:#CCC;
+	color:#fff;
+}
+
+.panel-heading a {
+    
+    color: #fff;	
+}

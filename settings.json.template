@@ -1,0 +1,27 @@
+/*
+  This file must be valid JSON. But comments are allowed
+
+  Please edit settings.json, not settings.json.template
+*/
+{
+
+  // The url it will be accessed from
+  // This is used on the main page (examples etc). If port is != 80 OR not being 
+  //   proxied/redirected from port 80, it should be included in the address.
+  "address": "114.134.4.206:9001",
+
+  // Port service should listen on
+  "port": 9001,
+
+  // Image format (png or svg)
+  "format": "png",
+
+  // Size of one module in pixels (png only). Default 5.
+  "size": 5,
+
+  // White space around QR image in modules. Default 4 (png) start with 1 for svg.
+  "margin": 4,
+
+  // Error correction level. One of L, M, Q, H. Default M.
+  "ec_level": "M"
+}
